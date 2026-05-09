@@ -11,6 +11,7 @@ import (
 func init() {
 	intializers.LoadEnvfile()
 	intializers.Database_connection()
+	intializers.Migrate()
 }
 
 func main() {
